@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Input: ");
         String expression = scanner.nextLine();
-        System.out.println("Output: " + MathParser.parse(expression));
+        System.out.println("Output: " + Calc.parse(expression));
         System.out.println();
     }
 }
